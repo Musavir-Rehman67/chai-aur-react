@@ -12,7 +12,17 @@ function App() {
   const addValue = () => {
     // console.log("clicked",counter)
     // counter = counter + 1
-    setCounter(counter + 1)
+    // setCounter(counter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    setCounter(counter => counter + 1)
+    setCounter(counter => counter + 1)
+    setCounter(counter => counter + 1)
+    setCounter(counter => counter + 1)
+    setCounter(counter => counter + 1)
+
     // console.log("value added",Math.random())
   }
 
